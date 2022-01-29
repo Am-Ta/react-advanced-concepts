@@ -1,11 +1,11 @@
-import { Fragment } from "react";
-import { ClickCounter, HoverCounter } from ".";
+import ClickCounter from "./ClickCounter";
+import HoverCounter from "./HoverCounter";
 import "../../App.css"
 
 export default function App() {
     return (
         <div className="App">
-            <ClickCounter />
+            <ClickCounter name={"amin taghipour"} />
             <HoverCounter />
         </div>
     )
